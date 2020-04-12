@@ -1,0 +1,163 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    header .navbar .logo{
+    font-size: 1.5rem ;
+    }
+    .banner{
+        min-height: 100vh;
+    }
+    .contentBox p{
+        font-size: 1rem;
+        
+    }
+    .contentBox h1,
+    .sec2 h2{
+        font-size: 1rem;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+    .navbar-light .navbar-toggler {
+        background: #fff;
+        border-radius: 0; 
+    }
+    .navbar-toggler {
+    font-size: 1rem;
+    }
+    .headerText h2{
+    font-size: 1.75rem;
+    }
+    .headerText p{
+        font-size: 1rem;
+    }
+    .sec1 {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    }
+    .sec2{
+        height: auto;
+        padding-bottom: 40px;
+        padding-top: 100px;
+    }
+    .btnD1{
+        padding: 8px 30px;
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+    .blog{
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+    .blogpost .imgBx{
+    height: 200px;
+    }
+    .blogpost .content h1 {
+    font-size: 1rem;
+    }
+    .blogpost .content p {
+    font-size: 0.75rem;
+    } 
+    .btnD2 {
+    padding: 8px 14px;
+    font-size: .75rem;
+    }
+    .contact .form-control{
+        height: 40px;
+        border: 1px solid #fff;
+    }
+    .contact label {
+    font-size: 1rem;
+    }
+    .contact{
+        padding: 80px 0;
+    }
+    .sci li{
+        margin: 0 10px;
+    }
+    .sci li a{
+        font-size: 1rem;
+    }
+    footer{
+        padding: 40px 0;
+    }
+    .cprt p{
+        font-size: 10px;
+    }
+}
+ /* Small devices (landscape phones, 576px and up) */ 
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   .navbar-light .navbar-toggler {
+        background: #fff;
+        border-radius: 0; 
+    }
+  
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-light .navbar-toggler {
+        background: #fff;
+        border-radius: 0; 
+    }
+    .banner{
+        min-height: 100vh;
+        padding: 100px 0;
+    }
+    .contentBox h1,
+    .sec2 h2{
+        font-size: 2rem;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .headerText h2{
+    font-size: 1.5rem;
+    }
+  
+    .blogpost .imgBx{
+    height: 200px;
+    }
+   
+    .contact .form-control{
+        height: 40px;
+        border: 1px solid #fff;
+    }
+    .btnD1{
+        padding: 10px 40px;
+        margin-top: 10px;
+    }
+
+    .sci li{
+        margin: 0 10px;
+    }
+    .sci li a{
+        font-size: 1.5rem;
+    }
+    .sec2{
+        height: auto;
+        padding-bottom: 40px;
+        padding-top: 100px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .sec2{
+        height: 100vh;
+
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+}
